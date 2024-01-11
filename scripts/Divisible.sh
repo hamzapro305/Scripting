@@ -8,6 +8,6 @@ fi
 
 for ((i = 0; i <= $2; i++)); do
     if ((i % $1 == 0)); then
-        echo "$i is an Even Number"
+        echo "$i is Divisible by Number $1"
     fi
 done
